@@ -1,10 +1,7 @@
 language: python
 python: 3.6
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 47a8fc83d58d5502d22eb6ff1dd5f906f37f8390
 install: make
 
 before_install: 
