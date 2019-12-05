@@ -2,7 +2,8 @@ from brain_games.cli import run
 
 
 def main():
-    print('Welcome to the Brain Games! \nSay "Yes" if number even otherwise answer "no".')
+    print('''Welcome to the Brain Games!
+        \rSay "Yes" if number even otherwise answer "no".''')
     run()
 
 
