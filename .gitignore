@@ -1,3 +1,6 @@
 *.egg-info
 __pycache__
 dist/
+brain_games/cli.py.save
+brain_games/scripts/brain_games.py.save
+brain_games/scripts/__pycache__/brain_games.cpython-36.pyc
