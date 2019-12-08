@@ -2,10 +2,8 @@ from brain_games.cli import greet
 
 
 def main():
-    print('''Welcome to the Brain Games!
-        \rSay "Yes" if number even otherwise answer "no".''')
-    name = greet()
-    print(name)
+    print('Welcome to the Brain Games!')
+    greet()
 
 
 if __name__ == '__main__':
