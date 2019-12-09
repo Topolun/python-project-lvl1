@@ -25,7 +25,8 @@ def check_answer(answer, user):
     if correct_answer != user_answer:
         print("'" + str(user_answer) + "'",
               "is wrong answer ;(. Correct answer was",
-              "'" + str(correct_answer) + "'.", "\nLet's try again,", name + "!")
+              "'" + str(correct_answer) + "'.",
+              "\nLet's try again,", name + "!")
         return False
     print('Correct!')
     return True
@@ -43,7 +44,8 @@ def game():
 def game1():
     name = greet()
     for i in range(3):
-        if check_answer(game_calc(game_number(), game_number()), name) is False:
+        if check_answer(game_calc(game_number(),
+                        game_number()), name) is False:
             return()
         if i == 2:
             print('Congratulations,', name + '!')
@@ -52,6 +54,7 @@ def game1():
 def game_calc(number1, number2):
     operators = ['+', '-', '*']
     random_operator = choice(operators)
-    mathemathik_expression = eval(str(number1) + random_operator + str(number2))
+    mathemathik_expression = eval(str(number1) + random_operator
+                                  + str(number2))
     print('Question: ', str(number1), random_operator, str(number2))
     return(str(mathemathik_expression))

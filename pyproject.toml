@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "topolun_brain_games"
-version = "0.3.6"
+version = "0.3.8"
 description = ""
 authors = ["Topolun <vik83tu@yandex.ru>"]
 packages = [  { include = "brain_games" }, ]
