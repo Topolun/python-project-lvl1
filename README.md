@@ -2,4 +2,4 @@
 
 [![Build Status](https://travis-ci.org/Topolun/python-project-lvl1.svg?branch=master)](https://travis-ci.org/Topolun/python-project-lvl1)
 
-<a href="https://asciinema.org/a/lDBVn0xaIZPUkPOtkR9Vnz1ax" target="_blank"><img src="https://asciinema.org/a/lDBVn0xaIZPUkPOtkR9Vnz1ax.svg" /></a>
+[![asciicast](https://asciinema.org/a/fATNCa23PfnuqqRwlLE4KF4b4.svg)](https://asciinema.org/a/fATNCa23PfnuqqRwlLE4KF4b4)
