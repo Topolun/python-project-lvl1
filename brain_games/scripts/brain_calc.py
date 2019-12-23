@@ -1,10 +1,10 @@
-from brain_games.game_logik import game1
+from brain_games.games.game_calc import game_calc_run
 
 
 def main():
     print('''Welcome to the Brain Games!
         \rWhat is the result of the expression?''')
-    game1()
+    game_calc_run()
 
 
 if __name__ == '__main__':

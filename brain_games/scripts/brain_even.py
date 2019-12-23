@@ -1,10 +1,10 @@
-from brain_games.game_logik import game
+from brain_games.games.game_even import game_even_run
 
 
 def main():
     print('''Welcome to the Brain Games!
         \rSay "Yes" if number even otherwise answer "no".''')
-    game()
+    game_even_run()
 
 
 if __name__ == '__main__':
