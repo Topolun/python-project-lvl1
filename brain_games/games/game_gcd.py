@@ -10,7 +10,7 @@ def game_gcd(number1, number2):
             first_number = first_number - second_number
         else:
             second_number = second_number - first_number
-    return(first_number)
+    return(str(first_number))
 
 
 def game_gcd_run():

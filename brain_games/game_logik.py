@@ -8,8 +8,8 @@ def greet():
     return(name)
 
 
-def game_number():
-    random_number = randint(1, 100)
+def game_number(argument1=1, argument2=100):
+    random_number = randint(argument1, argument2)
     return(random_number)
 
 
