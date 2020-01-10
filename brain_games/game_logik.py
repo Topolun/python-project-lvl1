@@ -25,3 +25,16 @@ def check_answer(answer, user):
         return False
     print('Correct!')
     return True
+
+
+def game_run(game_function):
+    print('Welcome to the Brain Games!')
+    print(game_function()[2])
+    name = greet()
+    for i in range(3):
+        game_round_data = game_function()
+        print('Question: ', game_round_data[1])
+        if check_answer(game_round_data[0], name) is False:
+            return()
+        if i == 2:
+            print('Congratulations,', name + '!')

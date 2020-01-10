@@ -1,10 +1,9 @@
-from brain_games.games.game_progression import game_progression_run
+from brain_games.games.game_progression import game_progression
+from brain_games.game_logik import game_run
 
 
 def main():
-    print('''Welcome to the Brain Games!
-        \rWhat number is missing in the progression?''')
-    game_progression_run()
+    game_run(game_progression)
 
 
 if __name__ == '__main__':

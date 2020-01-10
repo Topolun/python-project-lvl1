@@ -1,22 +1,14 @@
-from brain_games.game_logik import check_answer, game_number, greet
-
-
-def game_prime_run():
-    name = greet()
-    for i in range(3):
-        if check_answer(game_prime(), name) is False:
-            return()
-        if i == 2:
-            print('Congratulations,', name + '!')
+from brain_games.game_logik import game_number
 
 
 def game_prime():
+    game_greeting = ('Answer "yes" if given number is prime. '
+                     'Otherwise answer "no".')
     prime = 'no'
     check_number = game_number()
     devider = 2
-    print('Question: ', check_number)
     while devider ** 2 <= check_number and check_number % devider != 0:
         devider = +1
     if devider ** 2 > check_number:
         prime = 'yes'
-    return(prime)
+    return(prime, check_number, game_greeting)
