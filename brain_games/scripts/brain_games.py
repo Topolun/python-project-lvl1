@@ -1,4 +1,4 @@
-from brain_games.game_logik import greet
+from brain_games.engine import greet
 
 
 def main():
