@@ -9,7 +9,7 @@ def recieve_data_for_round():
     number1 = randint(1, 100)
     number2 = randint(1, 100)
     mathemathik_expression = random_operator[1](number1, number2)
-    question = " ".join((str(number1), random_operator[0], str(number2)))
+    question = "{} {} {}".format(number1, random_operator[0], number2)
     return str(mathemathik_expression), question
 
 
