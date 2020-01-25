@@ -4,9 +4,10 @@ from random import randint
 def is_prime(number):
     divider = 2
     prime = 'no'
-    while divider ** 2 <= number and number % divider != 0:
+    nummber_sqrt = number**0.5
+    while divider <= nummber_sqrt and number % divider != 0:
         divider += 1
-    if divider ** 2 > number:
+    if divider > nummber_sqrt:
         prime = 'yes'
     return prime
 

@@ -12,13 +12,13 @@ def run(game):
     print(game.GREETING)
     name = greet()
     for rounds in range(3):
-        game_round_data = game.recieve_data_for_round()
-        print('Question: ', game_round_data[1])
+        correct_answer, question = game.recieve_data_for_round()
+        print('Question: ', question)
         user_answer = prompt.string('Your answer: ')
-        if game_round_data[0] != user_answer:
+        if correct_answer != user_answer:
             print("'" + str(user_answer) + "'",
                   "is wrong answer ;(. Correct answer was",
-                  "'" + str(game_round_data[0]) + "'.",
+                  "'" + str(correct_answer) + "'.",
                   "\nLet's try again,", name + "!")
             return
         print('Correct!')

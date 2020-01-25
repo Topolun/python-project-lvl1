@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "topolun_brain_games"
-version = "2.2.0"
+version = "2.2.1"
 description = "Пакет содержит набо игр. 'brain-even' проверка на четность, 'brain-calc' игра в калькулятор, 'brain-gcd' наибольший общий делитель, 'brain-progression' арифметическая прогрессия, 'brain-prime' простое число. Для запуска игры наберите ее название из описания "
 authors = ["Topolun <vik83tu@yandex.ru>"]
 packages = [  { include = "brain_games" }, ]

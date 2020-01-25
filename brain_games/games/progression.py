@@ -8,11 +8,12 @@ def recieve_data_for_round():
     unknown_number = randint(0, 9)
     correct_answer = 0
     for i in range(10):
+        progression_element = first_number + step * i
         if i == unknown_number:
             progression_output = progression_output + '.. '
-            correct_answer = first_number + step * i
+            correct_answer = progression_element
         else:
-            progression_output += str(first_number + step * i) + ' '
+            progression_output += str(progression_element) + ' '
     return str(correct_answer), progression_output
 
 
